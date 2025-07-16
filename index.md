@@ -3,6 +3,8 @@ layout: default
 title: Welcome to My Portfolio
 ---
 
+<img src="profile_photo.jpg" alt="Phuoc Dang" width="200" style="border-radius: 50%; display: block; margin: 0 auto;">
+
 # 👋 Hi, I'm Josh Dang
 
 I'm a **Data Analytics Engineer** with experience building end-to-end pipelines using **Azure, Spark, Kafka, dbt, and Airflow**. I love transforming messy data into powerful insights.
