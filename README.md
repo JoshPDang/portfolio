@@ -10,9 +10,8 @@
 
 # 👋 Hi, I'm Josh Dang
 
-I’m a **Data Analytics Engineer** passionate about designing and building robust data solutions. I specialize in creating scalable data pipelines and real-time streaming systems that drive business insights and efficiency.
+I’m a Data Analytics Engineer with a strong passion for building end-to-end data-driven solutions. I specialize in designing and implementing data pipelines that collect, transform, and deliver insights across the organization. With a solid understanding of both cloud infrastructure and modern data engineering practices, I focus on creating scalable, automated systems that support reporting, analytics, and machine learning use cases. My goal is to turn raw data into reliable, actionable intelligence that drives better decision-making and business outcomes.
 
-With hands-on experience across **Azure**, **Kafka**, **Spark**, **Airflow**, **dbt**, and **Kubernetes**, I love solving complex data problems and working at the intersection of cloud and AI.
 
 ---
 
@@ -28,17 +27,20 @@ An end-to-end data engineering project using **PostgreSQL**, **Debezium**, **Kaf
 
 ## 🛠 Tools & Technologies
 
-- **Languages:** Python, SQL, Bash  
-- **Data Engineering:** PySpark, dbt, Airflow, Delta Lake  
-- **Cloud & Infra:** Azure (ADF, Synapse, ADLS), Docker, Kubernetes  
-- **Streaming:** Kafka, Debezium  
-- **ML/Serving:** FastAPI, scikit-learn, Prometheus/Grafana for monitoring
+- **Languages & Data Processing:** Python, SQL, Pandas, PySpark  
+- **Data Engineering & ETL:** dbt, Airflow, Delta Lake, Microsoft Fabric (Dataflows, Pipelines)  
+- **Cloud Platforms:** Azure (Data Factory, ADLS, Synapse), AWS (S3, EC2)  
+- **Data Warehousing:** Snowflake  
+- **Streaming & Messaging:** Kafka, Debezium  
+- **Infrastructure:** Docker, Kubernetes  
+- **ML Serving & Monitoring:** FastAPI, Prometheus, Grafana
+
 
 ---
 
 ## 📫 Get in Touch
 
-- 📧 Email: [your@email.com](mailto:your@email.com)  
-- 💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-
+- Phone: 0413179975
+- 📧 Email: [tphuocmail@gmail.com](mailto:tphuocmail@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/joshphuocthanhdang/](https://linkedin.com/in/joshphuocthanhdang/)
 ---
