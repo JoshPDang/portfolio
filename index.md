@@ -3,7 +3,7 @@ layout: default
 title: Welcome to My Portfolio
 ---
 
-<img src="profile_photo.jpg" alt="Phuoc Dang" width="200" style="border-radius: 50%; display: block; margin: 0 auto;">
+<img src="profile_photo.heic" alt="Phuoc Dang" width="200" style="border-radius: 50%; display: block; margin: 0 auto;">
 
 # 👋 Hi, I'm Josh Dang
 
