@@ -1,3 +1,6 @@
 title: Phuoc Dang
 description: Data Analytics Engineer | AI Enthusiast | Cloud Native Builder
-theme: jekyll-theme-cayman
+# Remove GitHub remote theme
+# theme: jekyll-theme-cayman
+
+# Use local theme instead
