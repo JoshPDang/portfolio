@@ -1,6 +1,13 @@
-title: Phuoc Dang
-description: Data Analytics Engineer | AI Enthusiast | Cloud Native Builder
-# Remove GitHub remote theme
-# theme: jekyll-theme-cayman
+title: "Phuoc Dang"
+description: "Data Analytics Engineer | AI Enthusiast | Cloud Native Builder"
 
-# Use local theme instead
+# Use custom layouts and styles
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
