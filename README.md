@@ -40,7 +40,8 @@ An end-to-end data engineering project using **PostgreSQL**, **Debezium**, **Kaf
 
 ## 📫 Get in Touch
 
-- Phone: 0413179975
-- 📧 Email: [tphuocmail@gmail.com](mailto:tphuocmail@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/joshphuocthanhdang/](https://linkedin.com/in/joshphuocthanhdang/)
+- 📞 Phone: 0413 179 975  
+- ✉️ Email: [tphuocmail@gmail.com](mailto:tphuocmail@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/joshphuocthanhdang](https://linkedin.com/in/joshphuocthanhdang)
+
 ---
