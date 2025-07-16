@@ -2,8 +2,10 @@
 layout: default
 title: Welcome to My Portfolio
 ---
-
-<img src="profile_photo.jpg" alt="Phuoc Dang" width="200" style="border-radius: 50%; display: block; margin: 0 auto;">
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
+  <img src="profile.jpg" alt="Phuoc Dang" width="140" style="border-radius: 50%;">
+  <h1 style="margin: 0;">Welcome to My Portfolio</h1>
+</div>
 
 # 👋 Hi, I'm Josh Dang
 
