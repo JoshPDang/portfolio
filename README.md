@@ -48,7 +48,7 @@ Gold Layer: Aggregated and enriched datasets, optimized for reporting and analyt
 By implementing this architecture, I aim to ensure data quality, scalability, and performance while creating an interactive analytic dashboard to uncover insights from the Formula 1 dataset. The dashboard will provide meaningful visualizations, enabling users to explore trends, patterns, and key metrics in Formula 1 racing.
 
 
-![Formula1](img/Formula1.png)
+![Formula1](img/nyc_taxi.png)
 ---
 
 ## 🛠 Tools & Technologies
