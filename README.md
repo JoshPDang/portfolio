@@ -16,6 +16,9 @@ I’m a Data Analytics Engineer with a strong passion for building end-to-end da
 ---
 
 ## 🚀 Featured Projects
+### 🔹 [Customer Churn App](https://github.com/JoshPDang/telcochurnapp)
+This project focuses on building an end-to-end machine learning solution to predict whether a customer is likely to churn from a telecom subscription service. Using the Telco Customer Churn dataset, the pipeline includes data preprocessing, feature engineering, model training, and deployment. The trained model is served via a FastAPI application hosted on Azure App Service, making it accessible through a REST API. The entire solution is integrated with Azure DevOps to enable automated CI/CD for code updates, testing, and deployment. To ensure observability and reliability in production, the application is instrumented with custom metrics and traces that are visualized in Grafana, powered by Prometheus and Jaeger. This project demonstrates how machine learning models can be effectively operationalized using modern cloud-native tools and DevOps best practices.
+![customer_churn_system_architect]()
 
 ### 🔹 [Rain Prediction App](https://github.com/phuocdang86/rain_prediction_app)
 A machine learning application built with **FastAPI**, integrated with a CI/CD pipeline and deployed to **Google Kubernetes Engine (GKE)**. Predicts rainfall based on weather metrics.
