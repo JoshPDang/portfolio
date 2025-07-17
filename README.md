@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-  <img src="profile_photo.jpg" alt="Phuoc Dang" width="120" style="border-radius: 50%;">
+  <img src="img/profile_photo.jpg" alt="Phuoc Dang" width="120" style="border-radius: 50%;">
   <div>
     <h1 style="margin: 0;">Welcome to My Portfolio</h1>
     <p><em>Data Analytics Engineer | AI Enthusiast | Cloud Native Builder</em></p>
@@ -17,15 +17,37 @@ I’m a Data Analytics Engineer with a strong passion for building end-to-end da
 
 ## 🚀 Featured Projects
 ### 🔹 [Customer Churn App](https://github.com/JoshPDang/telcochurnapp)
+
 This project focuses on building an end-to-end machine learning solution to predict whether a customer is likely to churn from a telecom subscription service. Using the Telco Customer Churn dataset, the pipeline includes data preprocessing, feature engineering, model training, and deployment. The trained model is served via a FastAPI application hosted on Azure App Service, making it accessible through a REST API. The entire solution is integrated with Azure DevOps to enable automated CI/CD for code updates, testing, and deployment. To ensure observability and reliability in production, the application is instrumented with custom metrics and traces that are visualized in Grafana, powered by Prometheus and Jaeger. This project demonstrates how machine learning models can be effectively operationalized using modern cloud-native tools and DevOps best practices.
+
 ![customer_churn_system_architect](img/telco_churn_app.png)
 
-### 🔹 [Rain Prediction App](https://github.com/phuocdang86/rain_prediction_app)
-A machine learning application built with **FastAPI**, integrated with a CI/CD pipeline and deployed to **Google Kubernetes Engine (GKE)**. Predicts rainfall based on weather metrics.
 
-### 🔹 [NYC Taxi Data Pipeline](https://github.com/phuocdang86/nyc-taxi-pipeline)
-An end-to-end data engineering project using **PostgreSQL**, **Debezium**, **Kafka**, **ADLS2**, and **Snowflake** to process NYC taxi trip data in both streaming and batch modes.
 
+### 🔹 [NYC Taxi Data Pipeline](https://github.com/JoshPDang/nyc-taxi-pipeline)
+In this project, I will implement a complete end-to-end data flow, covering all stages from data ingestion to final visualization. The primary objective is to create a seamless data pipeline using Azure Data Factory (ADF), which will automate data movement, transformation, and loading processes. The dataset I will use is the NYC Taxi dataset, which contains detailed trip data, including pick-up and drop-off locations, passenger counts, fares, and other relevant metrics.
+
+The workflow will begin with the ingestion of raw data from a blob storage container, followed by transformation steps such as cleaning, aggregation, and enrichment of the data (e.g., adding taxi zone information). I will implement these transformations using ADF’s data flow transformations and pipeline orchestration features to ensure efficient processing.
+
+The transformed data will then be stored in a suitable target for visualization, such as a data warehouse or storage account, where I can connect to visualization tools like Power BI or Tableau. This visualization will provide key insights into taxi trends, including trip frequency, passenger behavior, and fare distribution across different regions and times.
+
+This project will demonstrate my ability to build a scalable, automated data pipeline using ADF’s scheduling and orchestration capabilities, efficiently handling data transformations and integrating with visualization tools to derive actionable insights from the NYC Taxi dataset.
+
+![NYC Taxi](img/nyc_taxi.png)
+
+
+### 🔹 [Analytic Dash Board for Formula1 Dataset using MS Farbic](https://github.com/JoshPDang/Formula1_MSFabric)
+In this project, I will develop an end-to-end analytic dashboard using the Formula 1 dataset, leveraging Microsoft Fabric to manage and process data efficiently. The solution will incorporate key components of Microsoft Fabric, including Lakehouse, Warehouse, Data Pipeline, Dataflow and PowerBI, to facilitate a seamless data engineering and analytics workflow.
+
+The project will follow the Medallion Architecture, which organizes data into three distinct layers:
+
+Bronze Layer: Raw, unprocessed data will be ingested and stored in the Lakehouse. This layer serves as the single source of truth for all raw data collected.
+Silver Layer: The data will undergo cleaning, transformation, and validation to produce refined datasets. These intermediate datasets will be stored in the Data Warehouse for further processing and analysis.
+Gold Layer: Aggregated and enriched datasets, optimized for reporting and analytics, will also be stored in the Data Warehouse. This layer serves as the foundation for the final analytical outputs and visualizations.
+By implementing this architecture, I aim to ensure data quality, scalability, and performance while creating an interactive analytic dashboard to uncover insights from the Formula 1 dataset. The dashboard will provide meaningful visualizations, enabling users to explore trends, patterns, and key metrics in Formula 1 racing.
+
+
+![Formula1](img/Formula1.png)
 ---
 
 ## 🛠 Tools & Technologies
