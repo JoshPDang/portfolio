@@ -27,7 +27,7 @@ This project focuses on building an end-to-end machine learning solution to pred
 ### 🔹 [NYC Taxi Data Pipeline](https://github.com/JoshPDang/nyc-taxi-pipeline)
 In this project, I will implement a complete end-to-end data flow, covering all stages from data ingestion to final visualization. The primary objective is to create a seamless data pipeline using Azure Data Factory (ADF), which will automate data movement, transformation, and loading processes. The dataset I will use is the NYC Taxi dataset, which contains detailed trip data, including pick-up and drop-off locations, passenger counts, fares, and other relevant metrics.
 
-The workflow will begin with the ingestion of raw data from a blob storage container, followed by transformation steps such as cleaning, aggregation, and enrichment of the data (e.g., adding taxi zone information). I will implement these transformations using ADF’s data flow transformations and pipeline orchestration features to ensure efficient processing.
+The workflow will begin with the scraping the downlink from a website then ingest into Azure blob storage, followed by transformation steps such as cleaning, aggregation, and enrichment of the data (e.g., adding taxi zone information). I will implement these transformations using ADF’s data flow transformations, Databricks and pipeline orchestration features to ensure efficient processing.
 
 The transformed data will then be stored in a suitable target for visualization, such as a data warehouse or storage account, where I can connect to visualization tools like Power BI or Tableau. This visualization will provide key insights into taxi trends, including trip frequency, passenger behavior, and fare distribution across different regions and times.
 
@@ -37,6 +37,7 @@ This project will demonstrate my ability to build a scalable, automated data pip
 
 
 ### 🔹 [Analytic Dash Board for Formula1 Dataset using MS Farbic](https://github.com/JoshPDang/Formula1_MSFabric)
+
 In this project, I will develop an end-to-end analytic dashboard using the Formula 1 dataset, leveraging Microsoft Fabric to manage and process data efficiently. The solution will incorporate key components of Microsoft Fabric, including Lakehouse, Warehouse, Data Pipeline, Dataflow and PowerBI, to facilitate a seamless data engineering and analytics workflow.
 
 The project will follow the Medallion Architecture, which organizes data into three distinct layers:
@@ -55,7 +56,7 @@ By implementing this architecture, I aim to ensure data quality, scalability, an
 - **Languages & Data Processing:** Python, SQL, Pandas, PySpark  
 - **Data Engineering & ETL:** dbt, Airflow, Delta Lake, Microsoft Fabric (Dataflows, Pipelines)  
 - **Cloud Platforms:** Azure (Data Factory, ADLS, Synapse), AWS (S3, EC2)  
-- **Data Warehousing:** Snowflake  
+- **Data Warehousing:** Databricks, Snowflake  
 - **Streaming & Messaging:** Kafka, Debezium  
 - **Infrastructure:** Docker, Kubernetes  
 - **ML Serving & Monitoring:** FastAPI, Prometheus, Grafana
