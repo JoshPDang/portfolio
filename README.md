@@ -48,7 +48,7 @@ Gold Layer: Aggregated and enriched datasets, optimized for reporting and analyt
 By implementing this architecture, I aim to ensure data quality, scalability, and performance while creating an interactive analytic dashboard to uncover insights from the Formula 1 dataset. The dashboard will provide meaningful visualizations, enabling users to explore trends, patterns, and key metrics in Formula 1 racing.
 
 
-![Formula1](img/nyc_taxi.png)
+![Formula1](img/Formula1.png)
 ---
 
 ## 🛠 Tools & Technologies
@@ -60,6 +60,19 @@ By implementing this architecture, I aim to ensure data quality, scalability, an
 - **Streaming & Messaging:** Kafka, Debezium  
 - **Infrastructure:** Docker, Kubernetes  
 - **ML Serving & Monitoring:** FastAPI, Prometheus, Grafana
+
+---
+
+## 🎓 Certifications
+
+| Certification | Issuer | Issued | Expires |
+|---------------|--------|--------|---------|
+| **Microsoft Certified: Fabric Analytics Engineer Associate**<br>Credential ID: 99IDF0830AF2C29 | Microsoft | Jan 2025 | Jan 2026 |
+| **Microsoft Certified: Azure Data Engineer Associate**<br>Credential ID: 6C35E8-FD844B<br><sub><em>Skills:</em> Azure Data Factory, Synapse Analytics, Event Hubs, Stream Analytics, Azure Databricks</sub> | Microsoft | Nov 2024 | Nov 2025 |
+| **Microsoft Certified: Azure AI Fundamentals**<br>[View Credential](https://www.credly.com/badges/3a871df2-e082-4f84-bcb6-e4b963176e51) | Microsoft | Apr 2025 | *No expiry* |
+| **AWS Certified Cloud Practitioner**<br>Credential ID: 27CCQ9DCXJ1QQGSB | AWS | Jun 2023 | Jun 2026 |
+| **Databricks Certified Data Engineer Associate**<br>Credential ID: 77430386<br><sub><em>Skills:</em> Data Engineering, ETL, Data Governance</sub> | Databricks | Jul 2023 | Jul 2025 |
+| **Databricks Lakehouse Fundamentals**<br>Credential ID: 76661903 | Databricks | Jun 2023 | Jun 2024 |
 
 
 ---
