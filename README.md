@@ -42,9 +42,10 @@ In this project, I will develop an end-to-end analytic dashboard using the Formu
 
 The project will follow the Medallion Architecture, which organizes data into three distinct layers:
 
-Bronze Layer: Raw, unprocessed data will be ingested and stored in the Lakehouse. This layer serves as the single source of truth for all raw data collected.
-Silver Layer: The data will undergo cleaning, transformation, and validation to produce refined datasets. These intermediate datasets will be stored in the Data Warehouse for further processing and analysis.
-Gold Layer: Aggregated and enriched datasets, optimized for reporting and analytics, will also be stored in the Data Warehouse. This layer serves as the foundation for the final analytical outputs and visualizations.
+- **Bronze Layer**: Raw, unprocessed data will be ingested and stored in the Lakehouse. This layer serves as the single source of truth for all raw data collected.
+- **Silver Layer**: The data will undergo cleaning, transformation, and validation to produce refined datasets. These intermediate datasets will be stored in the Data Warehouse for further processing and analysis.
+- **Gold Layer**: Aggregated and enriched datasets, optimized for reporting and analytics, will also be stored in the Data Warehouse. This layer serves as the foundation for the final analytical outputs and visualizations.
+  
 By implementing this architecture, I aim to ensure data quality, scalability, and performance while creating an interactive analytic dashboard to uncover insights from the Formula 1 dataset. The dashboard will provide meaningful visualizations, enabling users to explore trends, patterns, and key metrics in Formula 1 racing.
 
 
